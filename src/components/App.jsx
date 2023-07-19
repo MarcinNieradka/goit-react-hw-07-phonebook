@@ -5,7 +5,6 @@ import { ContactList } from './ContactList';
 // import { nanoid } from 'nanoid';
 import clsx from 'clsx';
 import { useDispatch, useSelector } from 'react-redux';
-// import { addContact, deleteContact } from '../redux/contactsReducer';
 import { addContact, deleteContact } from 'redux/operations';
 import { setFilter } from 'redux/filtersReducer';
 import { getContacts, getFilter } from 'redux/selectors';
